@@ -12,80 +12,75 @@ code {
     monospace;
 }
 
-body{
-  padding:100px 0;
-  background-color:#c33
+.social {
+  background-color: #FFC72C;
+  text-align: center;
+  border-top: "1px solid #E7E7E7";
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
 }
 
-#heart {
-    position: relative;
-    width: 100px;
-    height: 90px;
-    animation: heartbeat 1s infinite;
-    margin:0 auto
-}
-#heart:before,
-#heart:after {
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: #fff;
-    -moz-border-radius: 50px 50px 0 0;
-    border-radius: 50px 50px 0 0;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
-}
-#heart:after {
-    left: 0;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
+.copyright {
+  color: #626262;
 }
 
+.social svg {
+  fill: transparent;
+}
 
+.social svg:hover {
+  transition: 0.7s ease;
+  transform: scale(1.6);
+}
 
-@keyframes heartbeat
-{
-  0%
-  {
-    transform: scale( .75 );
-  }
-  20%
-  {
-    transform: scale( 1 );
-  }
-  40%
-  {
-    transform: scale( .75 );
-  }
-  60%
-  {
-    transform: scale( 1 );
-  }
-  80%
-  {
-    transform: scale( .75 );
-  }
-  100%
-  {
-    transform: scale( .75 );
-  }
+.social svg {
+  transition: 0.7s ease;
+}
+
+.social a ~ a {
+  margin-left: 1rem;
+}
+
+.education {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.workExp {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.project {
+  height: 500px;
+  text-align: center;
+}
+
+.sky {
+  margin-top: 0px;
+  position: relative;
+  height: 300px;
+}
+
+.projectImage {
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.empty {
+  height: 300px;
+}
+
+.video {
+  max-width: 100%;
+  max-height: 50%;
 }
