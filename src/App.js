@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import { Linkedin, GitHub, Video } from 'react-feather'
+import { Linkedin, GitHub } from 'react-feather'
 import Sky from 'react-sky';
 import python from "./media/python.png"
 import java from "./media/java.png"
