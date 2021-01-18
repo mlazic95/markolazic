@@ -17,7 +17,6 @@ import linux from './media/linux.png'
 import node from './media/node.png'
 import segmentation from './projects/segmentation.png'
 import drone from './projects/drone.jpg'
-import ecosystem from './projects/ecosystem.png'
 
 
 
@@ -261,22 +260,7 @@ class Project extends Component {
     render() {
       return (
         <div className="video">
-          <video
-            width="350px"
-            id="my-player"
-            class="video-js"
-            controls
-            preload="auto"
-            poster={ecosystem}
-            data-setup='{}'>
-            <source src={this.props.video} type="video/mp4"></source>
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank">
-                supports HTML5 video
-              </a>
-            </p>
-          </video>
+
         </div>
       )
     }
