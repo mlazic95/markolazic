@@ -37,7 +37,7 @@ class App extends Component {
       <div>
         <W1>
           <T1>
-            Marko Lazic
+            En löneökning på 30% är rimligast!
           </T1>
         </W1>
         <W2>
